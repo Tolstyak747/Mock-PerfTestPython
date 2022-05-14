@@ -1,6 +1,0 @@
-HTTP/1.0 201 CREATED
-Content-Type: application/json
-Content-Length: 96
-Server: Werkzeug/2.0.3 Python/3.9.6
-Date: Tue, 05 Apr 2022 11:49:24 GMT
-
