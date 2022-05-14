@@ -1,0 +1,19 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2022/03/23 17:15:50
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2022/03/25 14:21:14
+StartRecordingIsDst_2=0
+[UserHomePage]
+UserHomePage=https://www.yandex.ru/?win=496&clid=2323222
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+[Security]
+UsingPersistForAuthentication=1
+UserName_1_1=USER_6
+Password_1_1=qwerty
+Realm_1_1=127.0.0.1:5000
+EventId_1_1=0
+UserName_2_1=USER_6
+Password_2_1=qwerty
+Realm_2_1=127.0.0.1:5000
+EventId_2_1=0

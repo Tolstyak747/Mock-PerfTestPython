@@ -1,0 +1,48 @@
+Virtual User Script started at: 28.03.2022 22:44:28
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\PYCH\mock\RestApiMyServerDone\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_user started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_user was successful  	[MsgId: MMSG-26392]
+vuser_init.c(16): web_url("127.0.0.1:{port}") started  	[MsgId: MMSG-26355]
+vuser_init.c(16): web_url("127.0.0.1:{port}") was successful, 90 body bytes, 365 header bytes  	[MsgId: MMSG-26386]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Create.
+Create.c(4): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Create.c(4): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Create.c(10): web_rest("Create") started  	[MsgId: MMSG-26355]
+Create.c(10): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Create.c(10): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Create.c(10): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Create.c(10): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Create.c(10): Notify: ****************   End of messages from web_add_header   *****************
+Create.c(10): web_rest("Create") was successful, 96 body bytes, 150 header bytes  	[MsgId: MMSG-26386]
+Ending action Create.
+Starting action Get.
+Get.c(4): web_rest("Get") started  	[MsgId: MMSG-26355]
+Get.c(4): web_rest("Get") was successful, 204 body bytes, 146 header bytes  	[MsgId: MMSG-26386]
+Ending action Get.
+Starting action Upgrade.
+Upgrade.c(4): web_rest("Upgrade") started  	[MsgId: MMSG-26355]
+Upgrade.c(4): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Upgrade.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Upgrade.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Upgrade.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Upgrade.c(4): Notify: ****************   End of messages from web_add_header   *****************
+Upgrade.c(4): web_rest("Upgrade") was successful, 3 body bytes, 144 header bytes  	[MsgId: MMSG-26386]
+Ending action Upgrade.
+Starting action Delete.
+Delete.c(4): web_rest("DELETE") started  	[MsgId: MMSG-26355]
+Delete.c(4): web_rest("DELETE") was successful, 3 body bytes, 144 header bytes  	[MsgId: MMSG-26386]
+Ending action Delete.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

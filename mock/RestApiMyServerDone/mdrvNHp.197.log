@@ -1,0 +1,21 @@
+Запуск стека сообщений auto log — итерация 17.	[MsgId: MMSG-10545]
+Начало действия Delete.	[MsgId: MMSG-15919]
+Delete.c(4): web_rest("DELETE") запущен  	[MsgId: MMSG-26355]
+Delete.c(4): Ошибка -26612: Код статуса HTTP=500 (INTERNAL SERVER ERROR) для "http://127.0.0.1:5050/rest/api/2/issue/"  	[MsgId: MERR-26612]
+Завершение стека сообщений auto log.	[MsgId: MMSG-10544]
+
+
+Запуск стека сообщений auto log — итерация 4.	[MsgId: MMSG-10545]
+Начало действия Delete.	[MsgId: MMSG-15919]
+Delete.c(4): web_rest("DELETE") запущен  	[MsgId: MMSG-26355]
+Delete.c(4): Ошибка -26612: Код статуса HTTP=500 (INTERNAL SERVER ERROR) для "http://127.0.0.1:5050/rest/api/2/issue/"  	[MsgId: MERR-26612]
+Завершение стека сообщений auto log.	[MsgId: MMSG-10544]
+
+
+Запуск стека сообщений auto log — итерация 7.	[MsgId: MMSG-10545]
+Начало действия Delete.	[MsgId: MMSG-15919]
+Delete.c(4): web_rest("DELETE") запущен  	[MsgId: MMSG-26355]
+Delete.c(4): Ошибка -26612: Код статуса HTTP=500 (INTERNAL SERVER ERROR) для "http://127.0.0.1:5050/rest/api/2/issue/"  	[MsgId: MERR-26612]
+Завершение стека сообщений auto log.	[MsgId: MMSG-10544]
+
+

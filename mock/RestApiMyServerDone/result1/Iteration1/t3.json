@@ -1,0 +1,10 @@
+{
+  "issue": {
+    "description": "something", 
+    "id": 820, 
+    "key": "TEST-2292", 
+    "priority": 3, 
+    "self": "http://127.0.0.1:5050/rest/api/2/issue/820", 
+    "summary": "Create issue"
+  }
+}

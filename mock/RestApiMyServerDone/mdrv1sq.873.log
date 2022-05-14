@@ -1,0 +1,7 @@
+Запуск стека сообщений auto log — итерация 1.	[MsgId: MMSG-10545]
+Начало действия Get.	[MsgId: MMSG-15919]
+Get.c(4): web_rest("Get") запущен  	[MsgId: MMSG-26355]
+Get.c(4): Ошибка -26627: Код статуса HTTP=404 (NOT FOUND) для "http://127.0.0.1:5050/rest/api/2/issue/"  	[MsgId: MERR-26627]
+Завершение стека сообщений auto log.	[MsgId: MMSG-10544]
+
+

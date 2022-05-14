@@ -1,0 +1,183 @@
+****** Start Log Message ******
+Web Recorder version : 12.55.911.0 
+Recording Mode: HTML-based script
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.55.911.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 41 ******
+GET / HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:5000
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 41 Ended $$$$$$
+
+****** Response Header For Transaction With Id 41 ******
+HTTP/1.0 401 UNAUTHORIZED
+Content-Type: application/json
+Content-Length: 37
+WWW-Authenticate: Basic realm="Authentication Required"
+Server: Werkzeug/2.0.3 Python/3.9.6
+Date: Fri, 25 Mar 2022 14:21:17 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 41 Ended $$$$$$
+
+****** Response Body For Transaction With Id 41 ******
+{
+  "error": "Unauthorized access"
+}
+
+$$$$$$ Response Body For Transaction With Id 41 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 50 ******
+GET / HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: 127.0.0.1:5000
+Connection: Keep-Alive
+Authorization: Basic VVNFUl82OnF3ZXJ0eQ==
+
+
+$$$$$$ Request Header For Transaction With Id 50 Ended $$$$$$
+
+****** Response Header For Transaction With Id 50 ******
+HTTP/1.0 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 53
+Server: Werkzeug/2.0.3 Python/3.9.6
+Date: Fri, 25 Mar 2022 14:21:33 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 50 Ended $$$$$$
+
+****** Response Body For Transaction With Id 50 ******
+<h1>Так называемая заглушка</h1>
+$$$$$$ Response Body For Transaction With Id 50 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 50 ****** (Location Flag : tFlagInsertEnd, Location ID : 50)
+	web_url("127.0.0.1:5000",
+		"URL=http://127.0.0.1:5000/",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 50 Ended $$$$$$
+
+****** Request Header For Transaction With Id 54 ******
+GET /favicon.ico HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: 127.0.0.1:5000
+Connection: Keep-Alive
+Authorization: Basic VVNFUl82OnF3ZXJ0eQ==
+
+
+$$$$$$ Request Header For Transaction With Id 54 Ended $$$$$$
+
+****** Response Header For Transaction With Id 54 ******
+HTTP/1.0 404 NOT FOUND
+Content-Type: application/json
+Content-Length: 27
+Server: Werkzeug/2.0.3 Python/3.9.6
+Date: Fri, 25 Mar 2022 14:21:33 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 54 Ended $$$$$$
+
+****** Response Body For Transaction With Id 54 ******
+{
+  "error": "Not found"
+}
+
+$$$$$$ Response Body For Transaction With Id 54 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\PYCH\mock\RestApiMyServerDone
+-ID:\РУланнер\include
+-ed:\pych\mock\restapimyserverdone\\logfile.log
+d:\pych\mock\restapimyserverdone\\combined_RestApiMyServerDone.c
+d:\pych\mock\restapimyserverdone\\pre_cci.c

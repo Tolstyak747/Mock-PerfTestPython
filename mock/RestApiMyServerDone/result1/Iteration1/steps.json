@@ -1,0 +1,26 @@
+[
+    {
+        "stepId": "STEP2",
+        "stepName": "Rest Request: Create",
+        "infFile": "t2.inf",
+        "time": 1649159364528
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Rest Request: Get",
+        "infFile": "t3.inf",
+        "time": 1649159364569
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Rest Request: Upgrade",
+        "infFile": "t4.inf",
+        "time": 1649159364616
+    },
+    {
+        "stepId": "STEP5",
+        "stepName": "Rest Request: DELETE",
+        "infFile": "t5.inf",
+        "time": 1649159364661
+    }
+]

@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=application/json
+StepName=Rest Request: DELETE
+Total=1
+FileName1=t5.json
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1649159364655
+RawStepName=DELETE
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1649159364648
+URL1=http://127.0.0.1:5050/rest/api/2/issue/
